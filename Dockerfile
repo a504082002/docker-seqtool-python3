@@ -7,7 +7,8 @@ RUN apt-get update -qq &&\
     					libfreetype6 libfreetype6-dev \
                         libpng12-0 libpng12-dev \
                         libpq-dev libopenblas-dev \
-                        pkg-config g++ gfortran && \
+                        pkg-config g++ gfortran \
+    					python3-numpy python3-scipy && \
 	apt-get clean && \
 	rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
