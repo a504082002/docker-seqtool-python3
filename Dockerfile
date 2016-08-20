@@ -8,7 +8,7 @@ RUN apt-get update -qq &&\
                         libpng12-0 libpng12-dev \
                         libpq-dev libopenblas-dev \
                         pkg-config g++ gfortran \
-    					python3-numpy python3-scipy && \
+    					python3-tk python3-numpy python3-scipy && \
 	apt-get clean && \
 	rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
