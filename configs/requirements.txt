@@ -6,6 +6,6 @@ seaborn
 ggplot
 networkx
 theano
-functional
+pyfunctional
 fastcluster
 biopython
